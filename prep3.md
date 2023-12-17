@@ -4,7 +4,7 @@
 - [Breanna Taylor](https://github.com/Btaylor007/Btaylor007)
 - [Renona Gay](https://github.com/Foodisthebest)
 - [Heraldo Morales](https://github.com/HeraldoM332)
-- [David Renteria]()
+- [David Renteria](github.com/drent23)
 - [Edwin Pretel]()
 
 ## Scenario & Problem Domain

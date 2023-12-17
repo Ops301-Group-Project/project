@@ -8,7 +8,7 @@
 - [Breanna Taylor](https://github.com/Btaylor007/Btaylor007)
 - [Renona Gay](https://github.com/Foodisthebest)
 - [Heraldo Morales](https://github.com/HeraldoM332)
-- [David Renteria](https://github.com/mtcf987)
+- [David Renteria](github.com/drent23)
 - [Edwin Pretel]()
 
 ## Project Description
@@ -32,6 +32,4 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ### Slide Deck
 
-- [Space Pirate Slide Deck](https://docs.google.com/presentation/d/10fcV8jFQ4KMRsqeh39GlyFb2YTLs10tDOHnnhXmFUfg/edit#slide=id.g258d971fb16_0_14)
-
-
+- [The Red Baron](https://docs.google.com/presentation/d/10fcV8jFQ4KMRsqeh39GlyFb2YTLs10tDOHnnhXmFUfg/edit#slide=id.g258d971fb16_0_14)
