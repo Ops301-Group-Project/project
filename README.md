@@ -11,13 +11,13 @@
 - [David Renteria](https://github.com/mtcf987)
 - [Edwin Pretel]()
 
-### Project Description
+## Project Description
 
-**A tiny new space startup looking to build and deploy micro-satellites.**
-- The company has mostly been hardware and software engineers working out of a large converted garage space.
-- They have received some grants and some investments, and they want to expand to hire more engineers, but also a few non-technical employees such as an office manager, a media person, etc.
-- Most employees will continue to work out of a central location, but both technical and non-technical users will sometimes need to travel.
-- Information security is a priority: The company's only value is its intellectual property. The company is unwilling to allow these technical designs to be stored on the cloud, and does not want any of it's intellectual property to leave the building (except in the form of offsite backups).
+### Scenario & Problem Domain
+
+Your team is a MSP and has been selected by a growing technology company, that is in need of a network upgrade to support its expanding workforce and enhance data security. The company currently has 20 employees working in different departments, including Sales and Marketing, Research and Development, and IT Management.
+
+The CEO has emphasized the importance of a secure and efficient network infrastructure that enables seamless communication between the office and the home company's central server. Additionally, the company wants to implement measures to safeguard data, improve collaboration through file shares, ensure business continuity with a robust backup solution, and establish an IT onboarding policy.
 
 ### Project Management Tool
 
@@ -32,6 +32,6 @@
 
 ### Slide Deck
 
-- [Space Pirate Slide Deck](https://docs.google.com/presentation/d/1p6nGzeAlwlXEcFhzVMi5qCebhxeiHTLOaONaqxhFLEM/edit#slide=id.g29b46e24f73_0_47)
+- [Space Pirate Slide Deck](https://docs.google.com/presentation/d/10fcV8jFQ4KMRsqeh39GlyFb2YTLs10tDOHnnhXmFUfg/edit#slide=id.g258d971fb16_0_14)
 
 
