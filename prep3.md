@@ -1,42 +1,21 @@
 ### Devs
 
 - [Andrew Carroll](https://github.com/iAmAndrewCarroll)
-- [Breanna Taylor]()
+- [Breanna Taylor](https://github.com/Btaylor007/Btaylor007)
 - [Renona Gay](https://github.com/Foodisthebest)
 - [Heraldo Morales](https://github.com/HeraldoM332)
 - [David Renteria]()
+- [Edwin Pretel]()
 
-## Scenario
+## Scenario & Problem Domain
 
-**This will be the heading for the scenario.**
-- The company has mostly been hardware and software engineers working out of a large converted garage space.
-- They have received some grants and some investments, and they want to expand to hire more engineers, but also a few non-technical employees such as an office manager, a media person, etc.
-- Most employees will continue to work out of a central location, but both technical and non-technical users will sometimes need to travel.
-- Information security is a priority: The company's only value is its intellectual property. The company is unwilling to allow these technical designs to be stored on the cloud, and does not want any of it's intellectual property to leave the building (except in the form of offsite backups).
+Your team is a MSP and has been selected by a growing technology company, that is in need of a network upgrade to support its expanding workforce and enhance data security. The company currently has 20 employees working in different departments, including Sales and Marketing, Research and Development, and IT Management.
+
+The CEO has emphasized the importance of a secure and efficient network infrastructure that enables seamless communication between the office and the home company's central server. Additionally, the company wants to implement measures to safeguard data, improve collaboration through file shares, ensure business continuity with a robust backup solution, and establish an IT onboarding policy.
 
 ### System Selection
 
-- Samba Fileshare
-  - Why: Samba is a scalable fileshare solution that will serve our clients needs now and in the future.
-
-- Remote Access via Microsoft Remote Desktop
-  - Why: Microsoft Remote Desktop is a secure and easy to use remote access solution.  This is also scalable and will serve our clients needs now and in the future.
-
-- Windows Defender - Data Security
-  - Why: To ensure the IP is not compromised and ease of use for our clients.  
-
-- Thunderbird Email Client
-  - Why: Thunderbird is a secure and easy to use email client.  This is also scalable and will serve our clients needs now and in the future.
-
-- Scalability
-  - Why: The system is designed to scale easily as the company is poised for rapid expansion.
-
-- Hardware
-![Project Wireframe](media/wireframe.png)
-  - Why: The hardware is designed to provide the highest level of security and productivity for all users.
-
-- User Roles
-  - User access is determined by their designation within the company.  Least Privilege Access model.
+To be decided
 
 ### MVP
 

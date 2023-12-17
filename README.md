@@ -5,10 +5,11 @@
 ### Devs
 
 - [Andrew Carroll](https://github.com/iAmAndrewCarroll)
-- [Breanna Taylor](https://github.com/BryannaKFox)
+- [Breanna Taylor](https://github.com/Btaylor007/Btaylor007)
 - [Renona Gay](https://github.com/Foodisthebest)
 - [Heraldo Morales](https://github.com/HeraldoM332)
 - [David Renteria](https://github.com/mtcf987)
+- [Edwin Pretel]()
 
 ### Project Description
 
