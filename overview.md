@@ -31,7 +31,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
     - VLAN 30: Research and Development (Virtual Machine - Computer 2)
     - VLAN 40: Future Expansion (Virtual Machine - Computer 3)
 
-### Backup Solution:  Renona or Heraldo
+### Backup Solution:  Renona
 
 - **Objective:**
   - Develop a backup solution that includes both on-site and off-site components.

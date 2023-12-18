@@ -15,10 +15,12 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ### System Selection
 
-- Windows Server 2019
-- Windows 10
-- Windows Defender & Firewall
-- 
+- Windows Server 2019 (DC & DNS)
+- Windows 10 (endpoint)
+- Windows Defender & Firewall (built-in antivirus)
+- One Drive (backup solution)
+- Active Directory
+- pfSense (router, VPN, VLANs, DHCP)
 
 ### MVP
 

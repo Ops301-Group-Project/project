@@ -11,6 +11,8 @@
 
 ## [README.md](https://github.com/Ops301-Group-Project/project/blob/main/README.md)
 
+## [Project  Prep 1 Visual](https://github.com/Ops301-Group-Project/project/blob/main/prep1.md)
+
 ## Scenario & Problem Domain
 
 Your team is a MSP and has been selected by a growing technology company, that is in need of a network upgrade to support its expanding workforce and enhance data security. The company currently has 20 employees working in different departments, including Sales and Marketing, Research and Development, and IT Management.
