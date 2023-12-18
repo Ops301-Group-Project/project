@@ -66,7 +66,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 ### Virtual Machine Deployment:  Andrew
 
 - **Objectives:**
-  - Deploy virtual machines for the server, router, and three computers representing different departments.
+  - Deploy virtual machines for the three computers representing different departments.
   - Ensure each computer is associated with the correct VLAN.
 
 ### IT Onboarding Policy:  Andrew
