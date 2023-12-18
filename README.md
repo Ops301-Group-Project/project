@@ -22,7 +22,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 ### Project Management Tool
 
 - Checkout the milestones, MVPs, and other project related progress here
-- [Trello Board](https://trello.com/w/ops301groupproject)
+- [GitHub Board](https://github.com/Ops301-Group-Project/project/projects?query=is%3Aopen)
 
 ### SOPs
 
@@ -32,4 +32,4 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ### Slide Deck
 
-- [The Red Baron](https://docs.google.com/presentation/d/10fcV8jFQ4KMRsqeh39GlyFb2YTLs10tDOHnnhXmFUfg/edit#slide=id.g258d971fb16_0_14)
+- [The Red Barons](https://docs.google.com/presentation/d/10fcV8jFQ4KMRsqeh39GlyFb2YTLs10tDOHnnhXmFUfg/edit#slide=id.g258d971fb16_0_14)

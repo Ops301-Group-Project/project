@@ -19,4 +19,17 @@ To be decided
 
 ### MVP
 
-We will provide the client with a secure network that will allow for the highest level of productivity and security for all users.  The network will be designed to scale easily as the company is poised for rapid expansion.
+- A small office network that includes the following
+  - 1 router
+  - 1 server
+  - 3 workstations (Sales & Marketing, Research & Development, and IT Management)
+  - VPN tunnel between router and server
+  - File share for each department
+  - Hardened Firewall & Windows Defender
+  - Backup solution for server
+  - Domain Controller/DNS with automation scripts (check labs for examples)
+  - Script
+    - Fully setup the DC via script
+  - Documentation 
+    - IT onboarding policy (SOPs and/or AUP)
+    - Org Chart

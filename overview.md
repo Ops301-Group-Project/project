@@ -8,13 +8,13 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ## Project Objectives:
 
-### Network Design and Topology:
+### Network Design and Topology:  Breanna
 
 - **Objective:**
   - Design a network topology that optimizes communication between the office and the central server.
   - Consider the physical layout of the office space and the placement of virtual machines representing computers in different departments.
 
-### VPN Setup:
+### VPN Setup:  Edwin
 
 - **Objective:**
   - Build a site-to-site VPN tunnel between the office router (virtual machine) and the home company's central server (virtual machine)
@@ -22,7 +22,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
   - Ensure that the VPN connection is secure, reliable, and allows for encrypted data transfer.
   - Demonstrate successful access to a file server, Active Directory, or other network resource on the other end of the tunnel.
 
-### VLAN Implementation:
+### VLAN Implementation:  Edwin
 
 - **Objective:**
   - Create VLANs to segregate network traffic based on departments:
@@ -31,25 +31,25 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
     - VLAN 30: Research and Development (Virtual Machine - Computer 2)
     - VLAN 40: Future Expansion (Virtual Machine - Computer 3)
 
-### Backup Solution:
+### Backup Solution:  Renona or Heraldo
 
 - **Objective:**
   - Develop a backup solution that includes both on-site and off-site components.
   - Schedule regular backups to ensure data integrity and quick recovery in case of data loss.
 
-### File Shares:
+### File Shares:  Heraldo
 
 - **Objectives:**
   - Set up separate file shares in the central server based on departments to facilitate collaboration among virtual machines.
   - Mount the file shares to the corresponding workstations.
   - Implement access controls to ensure data security and privacy.
 
-### Security Measures:
+### Security Measures:  Edwin
 
 - **Objectives:**
   - Implement firewalls, antivirus solutions, and other security measures to protect the network from cyber threats.
 
-### Windows Server Deployment and Domain Controller Setup:
+### Windows Server Deployment and Domain Controller Setup:  Breanna
 
 - **Objectives:**
   - Develop scripts (PowerShell or other scripting language) to automate the deployment of a Windows Server (Virtual Machine).
@@ -63,20 +63,20 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
   - Configure the server to act as both a DNS server and a Domain Controller.
   - Integrate the new server into the existing network infrastructure.
 
-### Virtual Machine Deployment:
+### Virtual Machine Deployment:  Andrew
 
 - **Objectives:**
   - Deploy virtual machines for the server, router, and three computers representing different departments.
   - Ensure each computer is associated with the correct VLAN.
 
-### IT Onboarding Policy:
+### IT Onboarding Policy:  Andrew
 
 - **Objectives:**
   - Develop an IT onboarding policy outlining the procedures for new employees joining the company.
   - Include guidelines for account creation, device setup, network access, and security training.
   - Ensure the policy aligns with industry best practices and the specific needs of the company.
 
-### Documentation:
+### Documentation:  David
 
 - **Objectives:**
   - Create comprehensive documentation that covers the following:
@@ -90,7 +90,7 @@ The documentation should serve as a reference for future maintenance and upgrade
 
 - What other possible vulnerabilities is your team concerned about? Does your team have any additional suggestions or solutions to any oversight?
 
-### Client Company and Org Chart
+### Client Company and Org Chart:  Renona
 
 - **Objective:**
   - Use your favorite AI tool to generate a fictional client company, acquired company and org chart. This is your opportunity to be creative!
