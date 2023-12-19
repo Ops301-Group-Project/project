@@ -16,20 +16,20 @@
   2.	Login using provided credentials (see IT Management if credentials are lost or forgotten)
   3.	Select “Inventory” in the bottom left corner
   4.	For off-site (cloud) components:
-    1.	Select “Virtual Infrastructure”
-    2.	Select “Add Server”
-    3.	Type in “corp.redbarons.com” in DNS Server/Name block
-    4.	Type in your domain credentials on the next screen
-    5.	Select “Apply” then “Finish”
+    - Select “Virtual Infrastructure”
+    -	Select “Add Server”
+    -	Type in “corp.redbarons.com” in DNS Server/Name block
+    -	Type in your domain credentials on the next screen
+    -	Select “Apply” then “Finish”
   5.	For on-site (on-prem) components:
-    1.	Select “Physical Infrastructure”
-    2.	Select “Create Protection Group”
-    3.	In Name, enter “corp.redbarons.com”, in Type enter “Computer”
-    4.	In “Active Directory” section, ensure “corp.redbarons.com.veeam.local” is listed in the search box
-    5.	In Credentials, type in your domain credentials
+    -	Select “Physical Infrastructure”
+    -	Select “Create Protection Group”
+    -	In Name, enter “corp.redbarons.com”, in Type enter “Computer”
+    -	In “Active Directory” section, ensure “corp.redbarons.com.veeam.local” is listed in the search box
+    -	In Credentials, type in your domain credentials
   6.	For File Share Protection
-    1.	Select “Add File Share”
-    2.	Type in the IP address of the file share server (Windows Server 2019 machine)
+    -	Select “Add File Share”
+    -	Type in the IP address of the file share server (Windows Server 2019 machine)
 - **References:** [Getting Started](https://helpcenter.veeam.com/docs/vac/provider_user/get_started.html?ver=80)  
 [Accounts & Roles](https://helpcenter.veeam.com/docs/backup/em/em_about_accounts_and_roles.html?ver=120) 
 - **Definitions:**
