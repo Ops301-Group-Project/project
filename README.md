@@ -1,8 +1,4 @@
-# WARNING!!!!!!  DO NOT COMMIT CHANGES TO THIS UNLESS WE HAVE AGREED ON IT AS A GROUP!!!!!!!!!
-
-# Here is a README  Ops201 Group 1
-
-### Devs
+# Red Barons
 
 - [Andrew Carroll](https://github.com/iAmAndrewCarroll)
 - [Breanna Taylor](https://github.com/Btaylor007/Btaylor007)
@@ -26,10 +22,8 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ### SOPs
 
-- All SOPs will be worked on and committed as Markdown Files.  
-- All images will be .png file types
-- Project SOPs related to Space Pirate Industries can be found [here](SOPs/mastersop.md)
+- Project SOPs related to Red Barons can be found [here](SOPs/mastersop.md)
 
-### Slide Deck
+### Presentation Slide Deck
 
 - [The Red Barons](https://docs.google.com/presentation/d/10fcV8jFQ4KMRsqeh39GlyFb2YTLs10tDOHnnhXmFUfg/edit#slide=id.g258d971fb16_0_14)
