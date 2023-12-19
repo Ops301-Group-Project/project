@@ -33,9 +33,9 @@
 - **References:** [Getting Started](https://helpcenter.veeam.com/docs/vac/provider_user/get_started.html?ver=80)  
 [Accounts & Roles](https://helpcenter.veeam.com/docs/backup/em/em_about_accounts_and_roles.html?ver=120) 
 - **Definitions:**
-Backup : storing a copy of original data which can be used in case of data loss. Backup is considered one of the approaches to data protection. Important data of the organization needs to be kept in backup efficiently for protecting valuable data (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/)
-Recovery (data) : restoring lost data by following some processes (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/)
-Network Infrastructure : the hardware and software that enable network connectivity and communication between users, devices, apps, the internet, and more (Source: https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-infrastructure.html)
+  1. Backup : storing a copy of original data which can be used in case of data loss. Backup is considered one of the approaches to data protection. Important data of the organization needs to be kept in backup efficiently for protecting valuable data (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/)
+  2. Recovery (data) : restoring lost data by following some processes (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/
+  3. Network Infrastructure : the hardware and software that enable network connectivity and communication between users, devices, apps, the internet, and more (Source: https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-infrastructure.html)
 - **Revision History:** 12/18/2023 -- "Backup & Data Recovery (BDR) SOP" created by David Renteria
 
 # 2. File Share Connectivity:
