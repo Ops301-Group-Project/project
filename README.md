@@ -17,7 +17,8 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ### Project Management Tool
 
-- Checkout the milestones, MVPs, and other project related progress here
+- [Topology](https://github.com/Ops301-Group-Project/project/blob/main/topology.svg)
+- [System Selection & MVP](https://github.com/Ops301-Group-Project/project/blob/main/prep3.md)
 - [Kanban Board](https://github.com/orgs/Ops301-Group-Project/projects/1)
 
 ### SOPs
