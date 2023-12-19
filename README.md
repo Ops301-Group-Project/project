@@ -25,7 +25,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 - [SOPs](https://github.com/Ops301-Group-Project/project/blob/main/sop.md)
 - [AUP](https://github.com/Ops301-Group-Project/project/blob/main/documentation/Red%20Barons%20Acceptable%20Use%20Policy.pdf)
-- [Onboarding Policy](https://github.com/Ops301-Group-Project/project/blob/main/Red%20Barons%20Onboarding%20Policy.pdf)
+- [Onboarding Policy](https://github.com/Ops301-Group-Project/project/blob/main/documentation/Red%20Barons%20Onboarding%20Policy.pdf)
 
 ### Presentation Slide Deck
 
