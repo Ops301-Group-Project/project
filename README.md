@@ -15,7 +15,7 @@ Your team is a MSP and has been selected by a growing technology company, that i
 
 The CEO has emphasized the importance of a secure and efficient network infrastructure that enables seamless communication between the office and the home company's central server. Additionally, the company wants to implement measures to safeguard data, improve collaboration through file shares, ensure business continuity with a robust backup solution, and establish an IT onboarding policy.
 
-### Project Management Tool
+### Project Management Resources
 
 - [Topology](https://github.com/Ops301-Group-Project/project/blob/main/documentation/topology.svg)
 - [System Selection & MVP](https://github.com/Ops301-Group-Project/project/blob/main/prep3.md)
