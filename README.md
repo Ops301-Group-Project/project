@@ -4,7 +4,7 @@
 - [Breanna Taylor](https://github.com/Btaylor007/Btaylor007)
 - [Renona Gay](https://github.com/Foodisthebest)
 - [Heraldo Morales](https://github.com/HeraldoM332)
-- [David Renteria](github.com/drent23)
+- [David Renteria](https://github.com/drent23)
 - [Edwin Pretel](https://github.com/EdInTech23)
 
 ## Project Description
@@ -21,9 +21,10 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 - [System Selection & MVP](https://github.com/Ops301-Group-Project/project/blob/main/prep3.md)
 - [Kanban Board](https://github.com/orgs/Ops301-Group-Project/projects/1)
 
-### SOPs
+### SOPs & IT Onboarding Policy
 
-- Project SOPs related to Red Barons can be found [here](SOPs/mastersop.md)
+- SOPs [here](SOPs/mastersop.md)
+- Onboarding Policy
 
 ### Presentation Slide Deck
 
