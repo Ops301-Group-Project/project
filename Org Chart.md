@@ -3,7 +3,7 @@
 
 ## Future Expansion Leadership:
 
-- EO: Heihachi Mishima
+- CEO: Heihachi Mishima
 
 ![heihachi-tekken3-face-render](https://github.com/Ops301-Group-Project/project/assets/147354932/763bd484-c9dc-4184-be23-eb67f0baf398)
 
