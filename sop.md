@@ -31,16 +31,26 @@
 - **Definitions:** Share drive - shared spaces where teams can easily store, search, and access their files from any networked, authenticated device
 - **Revision History:** 12/18/2023 -- "File Share Connectivity SOP" created by David Renteria
 
-# 3. Support Engagements:
+# 3. VPN Connectivity:
 
-- **Purpose:** To provide technical assistance.
-- **Scope:** All user support requests.
-- **Responsibilities:** IT team.
-- **Prerequisites:** Support tools and knowledge.
-- **Procedures:** Outline support workflow.
-- **References:** Include support protocols.
-- **Definitions:** Define support requests.
-- **Revision History:** Record revisions and contributors.
+- **Purpose:** The purpose of this SOP is to provide guidelines for connecting to the company Virtual Private Network (VPN) in order for users to access the network and its resources from remote locations.
+- **Scope:** This SOP applies to all Red Baron employees and contractors who require VPN access to the company network.
+- **Responsibilities:** The following personnel are responsible for implementing this SOP:
+  1.	IT Management Team – Configure and maintain company routers and VPN protocols to enable user endpoints’ remote access to the network
+  2.	Supervisors/managers – Ensure “Authorization for Remote Work” memos are signed by upper management and then sent to the IT Management team to authorize installation and setup of VPN software & protocols
+- **Prerequisites:** Prior to configuring and granting file share access, the following tasks must be complete:
+  1.	The user’s account has been created and added to the domain & respective organizational unit.
+  2.	The user’s role & responsibilities have been clearly defined.
+  3.	The user has been informed about the company’s IT policies and procedures and has signed the AUP and submitted the signed “Authorization for Remote Work” memorandum.
+- **Procedures:**
+  1.	Open the VPN client tool icon located on the right side of the taskbar.
+  2.	Find & select the “corp.redbarons.com” server.
+  3.	Click the “Connect” button
+  4.	Enter authentication credentials (provided to you by the IT Management team)
+  5.	Login as normal after connection has been successfully established
+- **References:** [How to connect to VPN on Windows 10](https://support.microsoft.com/en-us/windows/connect-to-a-vpn-in-windows-3d29aeb1-f497-f6b7-7633-115722c1009c) 
+- **Definitions:** VPN : Virtual Private Networks, or VPNs, is an encrypted connection over the Internet from a device to a network. The encrypted connection helps ensure that sensitive data is safely transmitted. It prevents unauthorized people from eavesdropping on the traffic and allows the user to conduct work remotely (Source: https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html)
+- **Revision History:** 12/18/2023 -- "VPN Connectivity SOP" created by David Renteria
 
 # 4. Troubleshooting Methodology:
 
