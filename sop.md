@@ -14,20 +14,22 @@
 - **Purpose:** The purpose of this SOP is to provide guidelines for connecting to the departmental file shares in order for teams to securely store and share data.
 - **Scope:** This SOP applies to all Red Baron employees and contractors who require access to organizational file shares.
 - **Responsibilities:** The following personnel are responsible for implementing this SOP:
-  1.	IT dept/contractors – Configure and maintain the file share and user endpoints’ ability to connect to it
+  1.	IT Management team – Configure and maintain the file share and user endpoints’ ability to connect to it
   2.	Supervisors/managers – Ensure “Notification of Departmental Transfer or Termination” memos are sent to the IT Management team to prevent privilege/permission creep and minimize security vulnerabilities
 - **Prerequisites:** Prior to configuring and granting file share access, the following tasks must be complete:
-1.	The user’s account has been created and added to the domain & respective organizational unit.
-2.	The user’s role & responsibilities have been clearly defined.
-3.	The user has been informed about the company’s IT policies and procedures and has signed the AUP.
-- **Procedures:** 1.	Ensure “Network Discovery” is enabled on user’s machine.
-2.	Open Windows File Explorer.
-3.	Right click on “This PC” and select “Map Network Drive”.
-4.	Select “Drive: Z”.
-5.	Type “\\corp.redbarons.com\Name of OU File Share Drive” in Internet or Network Address Box
-6.	Select “Finish”
+  1.	The user’s account has been created and added to the domain & respective organizational unit.
+  2.	The user’s role & responsibilities have been clearly defined.
+  3.	The user has been informed about the company’s IT policies and procedures and has signed the AUP.
+- **Procedures:**
+  1.	Ensure “Network Discovery” is enabled on user’s machine.
+  2.	Open Windows File Explorer.
+  3.	Right click on “This PC” and select “Map Network Drive”.
+  4.	Select “Drive: Z”.
+  5.	Type “\\corp.redbarons.com\Name of OU File Share Drive” in Internet or Network Address Box
+  6.	Select “Finish”
 - **References:** [How to map a network (share) drive from Windows 10](https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-29ce55d1-34e3-a7e2-4801-131475f9557d)
-- **Definitions:** Share drive : shared spaces where teams can easily store, search, and access their files from any networked, authenticated device
+- **Definitions:** Share drive
+                    : shared spaces where teams can easily store, search, and access their files from any networked, authenticated device
 - **Revision History:** 12/18/2023 -- "File Share Connectivity SOP" created by David Renteria
 
 # 3. Support Engagements:
