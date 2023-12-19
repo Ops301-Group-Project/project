@@ -23,7 +23,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 
 ### SOPs & IT Onboarding Policy
 
-- [SOPs](SOPs/mastersop.md)
+- [SOPs](https://github.com/Ops301-Group-Project/project/blob/main/sop.md)
 - [Onboarding Policy](https://github.com/Ops301-Group-Project/project/blob/main/Red%20Barons%20Onboarding%20Policy.pdf)
 
 ### Presentation Slide Deck
