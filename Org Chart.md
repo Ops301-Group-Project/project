@@ -22,8 +22,8 @@
 
 ## Research & Development:
 
-- Director: Dr. Boskonovitch (Obviously)
-- Lead Developer: Eddy Gordo (Capoeira master with a fascination with human potential)
+- Director: Dr. Boskonovitch 
+- Lead Developer: Eddy Gordo 
 - Software Engineer: Roger Jr.
 - AI Specialist: Lee Chaolan
 
