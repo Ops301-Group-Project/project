@@ -28,8 +28,7 @@
   5.	Type “\\corp.redbarons.com\Name of OU File Share Drive” in Internet or Network Address Box
   6.	Select “Finish”
 - **References:** [How to map a network (share) drive from Windows 10](https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-29ce55d1-34e3-a7e2-4801-131475f9557d)
-- **Definitions:** Share drive
-                    : shared spaces where teams can easily store, search, and access their files from any networked, authenticated device
+- **Definitions:** Share drive - shared spaces where teams can easily store, search, and access their files from any networked, authenticated device
 - **Revision History:** 12/18/2023 -- "File Share Connectivity SOP" created by David Renteria
 
 # 3. Support Engagements:
