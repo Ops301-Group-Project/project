@@ -1,13 +1,42 @@
-# 1. Backup and Restore Procedures:
+# 1. Backup and Recovery:
 
-- **Purpose:** To ensure data and configuration safety.
-- **Scope:** All user data, critical configurations, and hosted data.
-- **Responsibilities:** IT team.
-- **Prerequisites:** Access to backup tools and systems.
-- **Procedures:** Detail the backup frequency, storage location, and restoration process.
-- **References:** Mention backup tool documentation.
-- **Definitions:** Define critical data and configurations.
-- **Revision History:** Keep track of revisions and contributors.
+- **Purpose:** The purpose of this SOP is to provide guidelines and procedures to successfully complete the Backup & Data Recovery (BDR) process using Veeam Agent for Windows.
+- **Scope:** This SOP applies to all employees and contractors who require access to and storage of business-related data and assets.
+- **Responsibilities:** The following personnel are responsible for implementing this SOP:
+  1.	IT Management team – install and configure Veeam BDR software and settings on user endpoints to ensure their ability to backup and recover important data; distribute access credentials to users
+  2.	Users – ensure all essential business-related data is backed up using the Veeam application and comply with all applicable policies, regulations, and laws with regards to what data is stored and how it’s safeguarded
+- **Prerequisites:** Prior to backing up and recovering data, the following tasks must be complete:
+  1.	Ensure proper and adequate licensing is obtained and managed, and, if necessary, submit formal purchase requests for more licenses
+  2.	Veeam web application software must be installed and properly configured on user endpoints.
+  3.	The new users’ accounts must be created and linked to Red Barons’ Veeam enterprise account.
+  4.	The new user’s role & responsibilities have been clearly defined.
+  5.	The new user has been informed about the company’s IT policies and procedures and has signed the AUP.
+- **Procedures:**
+  1.	Install Veeam software and create a desktop shortcut (if not already done).
+  2.	Login using provided credentials (see IT Management if credentials are lost or forgotten)
+  3.	Select “Inventory” in the bottom left corner
+  4.	For off-site (cloud) components:
+    a.	Select “Virtual Infrastructure”
+    b.	Select “Add Server”
+    c.	Type in “corp.redbarons.com” in DNS Server/Name block
+    d.	Type in your domain credentials on the next screen
+    e.	Select “Apply” then “Finish”
+  5.	For on-site (on-prem) components:
+    a.	Select “Physical Infrastructure”
+    b.	Select “Create Protection Group”
+    c.	In Name, enter “corp.redbarons.com”, in Type enter “Computer”
+    d.	In “Active Directory” section, ensure “corp.redbarons.com.veeam.local” is listed in the search box
+    e.	In Credentials, type in your domain credentials
+  6.	For File Share Protection
+    a.	Select “Add File Share”
+    b.	Type in the IP address of the file share server (Windows Server 2019 machine)
+- **References:** [Getting Started](https://helpcenter.veeam.com/docs/vac/provider_user/get_started.html?ver=80)  
+[Accounts & Roles](https://helpcenter.veeam.com/docs/backup/em/em_about_accounts_and_roles.html?ver=120) 
+- **Definitions:**
+Backup : storing a copy of original data which can be used in case of data loss. Backup is considered one of the approaches to data protection. Important data of the organization needs to be kept in backup efficiently for protecting valuable data (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/)
+Recovery (data) : restoring lost data by following some processes (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/)
+Network Infrastructure : the hardware and software that enable network connectivity and communication between users, devices, apps, the internet, and more (Source: https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-infrastructure.html)
+- **Revision History:** 12/18/2023 -- "Backup & Data Recovery (BDR) SOP" created by David Renteria
 
 # 2. File Share Connectivity:
 
