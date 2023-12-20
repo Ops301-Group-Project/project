@@ -1,3 +1,4 @@
+from getpass import getpass
 import subprocess
 import sys
 
@@ -12,7 +13,7 @@ def main():
     forest_name = input("Enter the Active Directory forest name: ")
     ou_name = input("Enter the Organizational Unit name: ")
     username = input("Enter the administrator username: ")
-    password = "".join(["*" for c in sys.stdin.read().strip()])
+    password = getpass("Enter the administrator password: ")
 
     # Set static IP using netsh (modify for your platform)
     subprocess.run(f"netsh interface ip set address '{server_name}' static {ip_address} {netmask} {dns_server}", shell=True)
