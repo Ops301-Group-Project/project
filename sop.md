@@ -1,37 +1,24 @@
 # 1. Backup and Recovery:
 
-- **Purpose:** The purpose of this SOP is to provide guidelines and procedures to successfully complete the Backup & Data Recovery (BDR) process using Veeam Agent for Windows.
+- **Purpose:** The purpose of this SOP is to provide guidelines and procedures to successfully complete the Backup & Data Recovery (BDR) process using both onsite & offsite systems.
 - **Scope:** This SOP applies to all employees and contractors who require access to and storage of business-related data and assets.
 - **Responsibilities:** The following personnel are responsible for implementing this SOP:
-  1.	IT Management team – install and configure Veeam BDR software and settings on user endpoints to ensure their ability to backup and recover important data; distribute access credentials to users
-  2.	Users – ensure all essential business-related data is backed up using the Veeam application and comply with all applicable policies, regulations, and laws with regards to what data is stored and how it’s safeguarded
+  1.	IT Management team – Install and configure:
+    - Microsoft One Drive on user endpoints to ensure their ability to backup and recover important data to the cloud; then distribute access credentials to users
+    - File server on Windows Server 2019 Active Directory to provide backup stroage for user' important data on prem; then distribute network mapping information for users to connect
+  3.	Users – ensure all essential business-related data is backed up on either MS One Drive or Active Directory's File Server service and comply with all applicable policies, regulations, and laws with regards to what data is stored and how it’s safeguarded
 - **Prerequisites:** Prior to backing up and recovering data, the following tasks must be complete:
   1.	Ensure proper and adequate licensing is obtained and managed, and, if necessary, submit formal purchase requests for more licenses
-  2.	Veeam web application software must be installed and properly configured on user endpoints.
-  3.	The new users’ accounts must be created and linked to Red Barons’ Veeam enterprise account.
+  2.	Microsoft One Drive and file server mapping must be properly configured on user endpoints.
+  3.	The new users’ accounts must be created and added to the domain.
   4.	The new user’s role & responsibilities have been clearly defined.
   5.	The new user has been informed about the company’s IT policies and procedures and has signed the AUP.
 - **Procedures:**
-  1.	Install Veeam software and create a desktop shortcut (if not already done).
+  1.	Create a desktop shortcut for Microsoft One Drive and the Active Directory File Server (if not already done).
   2.	Login using provided credentials (see IT Management if credentials are lost or forgotten)
-  3.	Select “Inventory” in the bottom left corner
-  4.	For off-site (cloud) components:
-    - Select “Virtual Infrastructure”
-    -	Select “Add Server”
-    -	Type in “corp.redbarons.com” in DNS Server/Name block
-    -	Type in your domain credentials on the next screen
-    -	Select “Apply” then “Finish”
-  5.	For on-site (on-prem) components:
-    -	Select “Physical Infrastructure”
-    -	Select “Create Protection Group”
-    -	In Name, enter “corp.redbarons.com”, in Type enter “Computer”
-    -	In “Active Directory” section, ensure “corp.redbarons.com.veeam.local” is listed in the search box
-    -	In Credentials, type in your domain credentials
-  6.	For File Share Protection
-    -	Select “Add File Share”
-    -	Type in the IP address of the file share server (Windows Server 2019 machine)
-- **References:** [Getting Started](https://helpcenter.veeam.com/docs/vac/provider_user/get_started.html?ver=80)  
-[Accounts & Roles](https://helpcenter.veeam.com/docs/backup/em/em_about_accounts_and_roles.html?ver=120) 
+  3.	Ensure data is backed up routinely to prevent data loss and enhance recovery efforts, if necessary.
+- **References:** [Syncing Files to OneDrive](https://support.microsoft.com/en-au/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49#bkmk_install)  
+[Sharing OneDrive Files & Folders](https://support.microsoft.com/en-au/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#ID0EDBJ=Share_with_specific_people) 
 - **Definitions:**
   1. Backup : storing a copy of original data which can be used in case of data loss. Backup is considered one of the approaches to data protection. Important data of the organization needs to be kept in backup efficiently for protecting valuable data (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/)
   2. Recovery (data) : restoring lost data by following some processes (Source: https://www.geeksforgeeks.org/difference-between-backup-and-recovery/
@@ -81,79 +68,27 @@
 - **Definitions:** VPN : Virtual Private Networks, or VPNs, is an encrypted connection over the Internet from a device to a network. The encrypted connection helps ensure that sensitive data is safely transmitted. It prevents unauthorized people from eavesdropping on the traffic and allows the user to conduct work remotely (Source: https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html)
 - **Revision History:** 12/18/2023 -- "VPN Connectivity SOP" created by David Renteria
 
-# 4. Troubleshooting Methodology:
+# 4. Network Management and Security:
 
-- **Purpose:** To resolve technical issues efficiently.
-- **Scope:** Troubleshooting processes.
-- **Responsibilities:** IT team.
-- **Prerequisites:** Troubleshooting guidelines.
-- **Procedures:** Describe the step-by-step troubleshooting approach.
-- **References:** Include troubleshooting resources.
-- **Definitions:** Define troubleshooting terms.
-- **Revision History:** Keep track of revisions and contributors.
-
-# 5. Technology Purchase Requests:
-
-- **Purpose:** To manage technology procurement.
-- **Scope:** All technology purchase requests.
-- **Responsibilities:** Procurement team.
-- **Prerequisites:** Approval process.
-- **Procedures:** Explain the request and approval process.
-- **References:** Include procurement guidelines.
-- **Definitions:** Define technology purchase requests.
-- **Revision History:** Document revisions and contributors.
-
-# 6. Onboarding Technology Needs:
-
-- **Purpose:** To ensure new employees have the necessary technology.
-- **Scope:** Employee onboarding.
-- **Responsibilities:** HR and IT teams.
-- **Prerequisites:** Onboarding process.
-- **Procedures:** Detail technology provisioning for new hires.
-- **References:** Include onboarding guidelines.
-- **Definitions:** Define onboarding technology needs.
-- **Revision History:** Track revisions and contributors.
-
-# 7. Termination Technology Handling:
-
-- **Purpose:** To secure company data during employee terminations.
-- **Scope:** Employee terminations.
-- **Responsibilities:** HR and IT teams.
-- **Prerequisites:** Termination process.
-- **Procedures:** Explain data and access revocation.
-- **References:** Include termination protocols.
-- **Definitions:** Define termination technology handling.
-- **Revision History:** Record revisions and contributors.
-
-# 8. Remote Support Engagements:
-
-- **Purpose:** To provide offsite technical assistance.
-- **Scope:** Remote support scenarios.
-- **Responsibilities:** IT team.
-- **Prerequisites:** Remote support tools.
-- **Procedures:** Describe remote support workflow.
-- **References:** Include remote support guidelines.
-- **Definitions:** Define remote support engagements.
-- **Revision History:** Document revisions and contributors.
-
-# 9. Endpoint Security for Windows 10:
-
-- **Purpose:** To protect Windows 10 workstations.
-- **Scope:** All Windows 10 devices.
-- **Responsibilities:** IT team.
-- **Prerequisites:** Security tools and policies.
-- **Procedures:** Explain security configurations and monitoring.
-- **References:** Include security guidelines.
-- **Definitions:** Define endpoint security.
-- **Revision History:** Track revisions and contributors.
-
-# 10. Network Enhancement and Security:
-
-- **Purpose:** To improve network usability and security.
-- **Scope:** Company network.
-- **Responsibilities:** IT team.
-- **Prerequisites:** Network analysis.
-- **Procedures:** Describe network enhancements and security measures.
+- **Purpose:** The purpose of this SOP is to provide an overview and guidelines of how Red Barons' network and its resources and assets will be managed.
+- **Scope:** This SOP applies to all company-owned resources that contribute to the corporate network's infrastructure and domain.
+- **Responsibilities:** The following personnel are responsible for implementing this SOP:
+  1.	IT Management team – Ensure inventory, account, software/application, license, and patch/update, and change management systems are incorporated in a formal ITAM plan.  Network protection tools are to be deployed and routinely updated and monitored to include network scanning, threat detection and prevention, DLP, BDR, and thorough logging.
+  2.	Supervisors/managers – Inform the IT management team of employees' transfer and/or termination to prevent privilege creep and other forms of unauthorized access to network resources
+  3.	All users - Remain vigilant of risks and threats when utilizing network resources; complete mandatory annual cybersecurity awareness and phishing training; and report all vulnerabilities, threats, and malicious activity to the ISSO immediately or as soon as possible
+- **Prerequisites:**
+  1. All users', including IT Management team personnel, roles & responsibilities have been clearly defined.
+  2. All users, including IT management team personnel, have read and understand Red Barons’ IT policies and procedures and have signed the AUP 
+- **Procedures:**
+  1.	Software & Patch Management
+     - The IT Mangagement team will install and configure an upstream server to serve as the WSUS machine for patching, software updates, and OS version control. Senior IT personnel will approve updates before deployment.
+  2. Network Monitoring & Security
+    -  The IT management team will install and configure IDS/IPS and Wireshark to monitor network traffic, and Firewalls, DMZs, VPNs, and anti-malware to enhance network security.
+  3.  Backup & Incident Handling
+    - The IT management team will implement file server with a RAID 5 configuration and minimum 3 HDDs with 200GB capacity for backup storage, and a VPC will be procured and configured as a cloud site to prevent network disruptions and downtime. Additionally, any changes to hardware, software, or network configurations will be formally requested in memorandum format to the CIO.
 - **References:** Include network guidelines.
-- **Definitions:** Define network enhancements.
-- **Revision History:** Record revisions and contributors.
+- **Definitions:**
+    1. WSUS : Windows Server Update System is used to manage software updates and security patches for user endpoints
+    2. Cloud site : a virtual environment meant to replicate the corporate network for redundancy and high availabiility
+    3. RAID : Redundant Array of Independent Disks is meant to ensure high availability for storage devices
+- **Revision History:** 12/20/2023 -- "Network Management & Security SOP" created by David Renteria
