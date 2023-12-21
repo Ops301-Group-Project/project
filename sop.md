@@ -88,7 +88,10 @@
     - The IT management team will implement file server with a RAID 5 configuration and minimum 3 HDDs with 200GB capacity for backup storage, and a VPC will be procured and configured as a cloud site to prevent network disruptions and downtime. Additionally, any changes to hardware, software, or network configurations will be formally requested in memorandum format to the CIO.
 - **References:** Include network guidelines.
 - **Definitions:**
-    1. WSUS : Windows Server Update System is used to manage software updates and security patches for user endpoints
-    2. Cloud site : a virtual environment meant to replicate the corporate network for redundancy and high availabiility
-    3. RAID : Redundant Array of Independent Disks is meant to ensure high availability for storage devices
+    1. ITAM : Information Technology Asset Management, used to manage and track network assets
+    2. DLP : Data Loss Prevention, methodology and tools used to prevent security breaches and data loss
+    3. ISSO : Information Systems Security Officer, serves as a senior IT security subject matter expert
+    4. WSUS : Windows Server Update System is used to manage software updates and security patches for user endpoints
+    5. Cloud site : a virtual environment meant to replicate the corporate network for redundancy and high availabiility
+    6. RAID : Redundant Array of Independent Disks is meant to ensure high availability for storage devices
 - **Revision History:** 12/20/2023 -- "Network Management & Security SOP" created by David Renteria
