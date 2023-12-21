@@ -36,3 +36,9 @@ This PowerShell script automates the process of setting up a new Domain Controll
 - **Administrative Privileges:** Ensure you have administrative privileges on the server to execute the script successfully.
 - **Error Handling:** Review any error messages carefully and take appropriate actions to address them.
 - **Logging:** Consider implementing logging to record script execution details for troubleshooting and auditing purposes.
+
+**Author:** Andrew Carroll
+
+**Resources:** ChatGPT, Bard, Google, Microsoft, Stack Overflow, PowerShell documentation
+
+**Date:** 2023-12-20
