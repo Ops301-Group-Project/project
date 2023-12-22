@@ -18,6 +18,7 @@ The CEO has emphasized the importance of a secure and efficient network infrastr
 ### Project Management Resources
 
 - [Topology](https://github.com/Ops301-Group-Project/project/blob/main/documentation/Red%20Barons%20Topology%20(Updated).svg)
+- [Org Chart](https://github.com/Ops301-Group-Project/project/blob/main/documentation/Red%20Barons%20Org%20Chart.drawio.png)
 - [System Selection & MVP](https://github.com/Ops301-Group-Project/project/blob/main/prep3.md)
 - [Kanban Board](https://github.com/orgs/Ops301-Group-Project/projects/1)
 
